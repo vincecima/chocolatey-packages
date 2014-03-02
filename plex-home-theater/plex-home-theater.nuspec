@@ -12,6 +12,7 @@
     <tags>media Plex PlexHomeTheater</tags>
     <licenseUrl>https://plex.tv</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://raw.github.com/vincecima/chocolatey-packages/master/plex-home-theater/icon.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
