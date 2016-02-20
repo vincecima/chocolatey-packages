@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>context-console</id>
+    <title>ContextConsole Shell Extension</title>
+    <version>2.1</version>
+    <authors>kliu@code.kliu.org</authors>
+    <owners>Vince Cima</owners>
+    <summary>Open a command prompt in the current directory and in multiple directories at once</summary>
+    <description>The ContextConsole Shell Extension adds an "Open Command Prompt" menu item to the context menus (right-click menus) in Windows Explorer so that you can open a command prompt in the selected directory (or directories) or in the current directory that you are viewing.</description>
+    <projectUrl>http://code.kliu.org/cmdopen/</projectUrl>
+    <tags>cmd</tags>
+    <licenseUrl>http://code.kliu.org/cmdopen/license.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <packageSourceUrl>https://github.com/vincecima/chocolatey-packages</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
